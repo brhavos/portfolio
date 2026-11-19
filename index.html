@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Carlos Ciccolani - Currículo</title>
+	
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts: Saira Extra Condensed & Muli -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">
+    
+    <style>
+        :root {
+            --bs-primary: #bd5d38; /* Laranja-marrom original do Start Bootstrap Resume */
+            --bs-primary-rgb: 189, 93, 56;
+            --bs-body-font-family: 'Muli', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --bs-heading-font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --bs-body-color: #6c757d;
+        }
+
+        body {
+            padding-top: 54px;
+            color: var(--bs-body-color);
+            font-family: var(--bs-body-font-family);
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        @media (min-width: 992px) {
+            body {
+                padding-top: 0;
+                padding-left: 17rem;
+            }
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--bs-heading-font-family);
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #343a40;
+        }
+
+        /* Estilização da barra lateral */
+        #sideNav {
+            background-color: var(--bs-primary);
+        }
+
+        #sideNav .navbar-nav .nav-item .nav-link {
+            font-weight: 800;
+            letter-spacing: 0.05rem;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.55);
+        }
+
+        #sideNav .navbar-nav .nav-item .nav-link:hover,
+        #sideNav .navbar-nav .nav-item .nav-link.active {
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        #sideNav .navbar-toggler {
+            top: 1rem;
+            right: 1rem;
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        #sideNav .navbar-toggler:focus {
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+        }
+
+        @media (min-width: 992px) {
+            #sideNav {
+                text-align: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                width: 17rem;
+                height: 100vh;
+            }
+
+            #sideNav .navbar-brand {
+                display: flex;
+                margin: auto 0 auto 0;
+                padding: 1.5rem;
+                text-align: center;
+            }
+
+            #sideNav .navbar-brand .img-profile {
+                width: 10rem;
+                height: 10rem;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 0.5rem solid rgba(255, 255, 255, 0.2);
+            }
+
+            #sideNav .navbar-collapse {
+                display: flex !important;
+                align-items: flex-start;
+                flex-grow: 0;
+                width: 100%;
+                margin-bottom: auto;
+            }
+
+            #sideNav .navbar-nav {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            #sideNav .navbar-nav .nav-item {
+                display: block;
+            }
+
+            #sideNav .navbar-nav .nav-item .nav-link {
+                display: block;
+                padding: 0.5rem 1rem;
+            }
+        }
+
+        /* Estilos de layout das seções */
+        section.resume-section {
+            display: flex;
+            align-items: center;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            max-width: 75rem;
+        }
+
+        @media (min-width: 768px) {
+            section.resume-section {
+                min-height: 100vh;
+                padding-top: 4.5rem;
+                padding-bottom: 4.5rem;
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+        }
+
+        /* Ícones sociais */
+        .social-icons .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 3.5rem;
+            width: 3.5rem;
+            background-color: #495057;
+            color: #fff;
+            border-radius: 100%;
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            transition: background-color 0.15s ease-in-out;
+        }
+
+        .social-icons .social-icon:hover {
+            background-color: var(--bs-primary);
+        }
+
+        .text-primary-custom {
+            color: var(--bs-primary) !important;
+        }
+    </style>
+	
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+	
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Carlos</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./img/carlos.jpg" alt="Foto de Carlos Ciccolani">
+            </span>
+        </a>
+		
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+		
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiência</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Formação</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certificações</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interesses</a></li>
+            </ul>
+        </div>
+		
+    </nav>
+
+    <div class="container-fluid p-0">
+        
+        <!-- Seção Sobre -->
+
+        <section class="resume-section" id="about">
+
+            <div class="resume-section-content">
+
+                <h1 class="mb-0">
+                    Carlos
+                    <span class="text-primary-custom">Ciccolani</span>
+                </h1>
+
+                <div class="subheading mb-5">
+
+					<a href="https://wa.me/5519992730379" target="_blank">
+						<img src="img/whatsapp.png" alt="WhatsApp" width="26" height="26">55 (19) 99273-0379
+					</a>
+
+                    &nbsp·&nbsp
+					
+					<a href="mailto:brhavos@yahoo.com.br">
+						<img src="img/email.png" alt="E-mail" width="35" height="35">brhavos@yahoo.com.br
+					</a>
+				
+					<p></p>
+
+					<a href="./artifact/cv_chc-v-202610.pdf" onclick="abrirJanelaMenor(event, this.href)" class="btn btn-outline-primary">
+						<i class="fas fa-file-pdf me-2 text-danger"></i> Currículo/CV
+					</a>
+
+					&nbsp·&nbsp
+
+					<a href="./artifact/CartaDeApresentação.pdf" onclick="abrirJanelaMenor(event, this.href)" class="btn btn-outline-primary">
+						<i class="fas fa-file-pdf me-2 text-danger"></i> Apresentação
+					</a>
+					
+                </div>
+				
+                <p class="lead mb-5">
+					Com uma vida inteira dedicada à Tecnologia da Informação, construí uma trajetória sólida e altamente versátil, desempenhando papéis estratégicos em grandes empresas. Atuei em iniciativas e ecossistemas complexos, sempre promovendo a integração fluída entre negócios, arquitetura, desenvolvimento, segurança e operações.   
+					Minha atuação é pautada na busca constante por excelência operacional e ENTREGA DE VALOR genuíno. Tenho domínio dos frameworks e abordagens ágeis (Scrum, Kanban, SAFe e Lean) e cascata. Faço gestão de portfólios, governança, análise de métricas de desempenho e observabilidade com propriedade, além de possuir bagagem técnica aprofundada em integrações, microsserviços, APIs, bancos de dados e o uso prático de Inteligência Artificial Generativa e automações.   
+					Movido por desafios, curiosidade e por um apetite constante por aprendizado, especialmente em temas como IA, gestão e agilidade, combino visão sistêmica, carisma, transparência e comprometimento no relacionamento com stakeholders. Acredito que a tecnologia só cumpre seu verdadeiro papel quando resolve problemas reais e impulsiona o crescimento estratégico das organizações.
+				</p>
+				
+                <div class="social-icons">
+					<a class="social-icon" href="https://www.linkedin.com/in/ciccolani" target="_blank" title="Visite meu LinkedIn" rel="noopener noreferrer" onclick="abrirJanelaMenor(event, this.href)">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+                </div>
+            
+			</div>
+			
+        </section>
+
+        <hr class="m-0">
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+        <!-- Seção Experiência -->
+        <section class="resume-section" id="experience">
+		
+            <div class="resume-section-content">
+                <h2 class="mb-5">Experiência (papéis desempenhados na prática)</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Gerente de Projetos</h3>
+						<div class="flex-shrink-0"><span class="text-primary-custom">visão estratégica - governança - liderança</span></div>
+						<br>
+                        <p>
+						> Ciclo de Vida e Escopo: Iniciação de projetos, mapeamento de stakeholders, criação de EAP/WBS, cronogramas e gestão do controle de mudanças.
+						<br>
+						> Custos e Qualidade: Elaboração e controle do orçamento (CAPEX/OPEX), análise de valor agregado (EVA) e acompanhamento de métricas de qualidade (KPIs).
+						<br>
+						> Riscos e Contingência: Identificação preventiva de falhas, análise de impacto e execução de planos de mitigação e resolução de gargalos.
+						<br>
+						> Pessoas e Comunicação: Liderança de times multidisciplinares, alocação de recursos, mediação de conflitos e reporte executivo (Status Report) para diretores e clientes.
+						<br>
+						> Metodologias: Aplicação de abordagens Preditivas (Waterfall), Ágeis (Scrum, Kanban) ou Híbridas para garantir entregas no prazo e dentro do escopo.</p>
+                    </div>
+                </div>
+				
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">PO - Product Owner</h3>
+						<div class="flex-shrink-0"><span class="text-primary-custom">elo estratégico entre negócio/stakeholders/equipe de desenvolvimento - maximizador do valor do produto</span></div>
+                        <br>
+						<p>
+						> Faço a Gestão do Backlog do Produto (Product Backlog) criando/detalhando/priorizando/mantendo os itens (histórias de usuário, melhorias e correções) que formam a lista de tudo o que precisa ser construído ou ajustado no produto.
+						<br>
+						> Providencio a Definição da Visão dando clareza à equipe sobre o propósito do produto, para onde ele está indo e quais problemas ele resolve para o usuário final.
+						<br>
+						> Olho para ROI e Valor decidindo o que entra primeiro no desenvolvimento com base no valor de negócio, urgência, feedback de clientes e custo-benefício.
+						<br>
+						> Dou Aceite de Entregas validando as funcionalidades desenvolvidas pelo time observando os critérios de aceitação estabelecidos e entregam a qualidade esperada e DOD.
+						<br>
+						> Executo Interface com Stakeholders negociando prazos, escopo e expectativas com as áreas de negócio e patrocinadores, blindando o time de desenvolvimento de mudanças constantes de direção no meio da sprint.
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">AM - Agile Master</h3>
+						<div class="flex-shrink-0"><span class="text-primary-custom">agente da mudança organizacional - facilitador do fluxo de valor - guardião da melhoria contínua</span></div>
+                        <br>
+						<p>
+						> Atuo como um líder servidor, removo atritos operacionais, blindo o time para que possam focar no que fazem de melhor, e garanto que a agilidade não seja apenas um conjunto de rituais engessados, mas um motor real de entrega de valor de negócio para a organização.
+						<br>
+						> Sou disseminador de boas práticas, encorajo a execução de testes, participo na criação de protótipos e mitigação de incertezas de arquitetura.
+						<br>
+						> Mapeio dependências e faço gestão de riscos.
+						<br>
+						> Por ser um papel agnóstico, transito por múltiplos frameworks (Kanban, SAFe, LeSS, XP) e atuo na organização como um todo, olhando para gargalos sistêmicos, cultura corporativa, engenharia de fluxo e integração entre vários departamentos.
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">SM - Scrum Master</h3>
+						<div class="flex-shrink-0"><span class="text-primary-custom">guardião do Scrum para a equipe - líder/servidor - facilitador</span></div>
+                        <br>
+						<p>
+						> Garanto a execução do Scrum na squad assegurando a execução e o cumprimento de práticas/ritos (Daily, Planning, Review e Retrospective) 
+						<br>
+						> Removo impedimentos com propriedade, sejam técnicos, burocráticos ou interpessoais a fim de garantir o bom fluxo da squad.
+						<br>
+						> Sou protetor do time de desenvolvimento.
+						<br>
+						> Promovo melhoria contínua e evolução da maturidade da equipe através da leitura de métricas e execução de reflexões.
+						<br>
+						> Apoio o PO na gestão/clareza do backlog, antecipo cenários para prevenir ameaças
+						<br>
+						> Ajuda na facilitação de eventos de planejamento e refinamento.
+						<br>
+						> Dissemino a cultura ágil dentro da empresa, treinando gestores e outras equipes.
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">RM - Release Manager</h3>
+						<div class="flex-shrink-0">
+							<span class="text-primary-custom">
+								planejo, coordeno e controlo todo o ciclo de vida de publicação de uma feature — desde o final do desenvolvimento/testes até a entrega no ambiente de produção,
+								garantindo que os usuários recebam suas solicitações com qualidade, estabilidade e sem interrupções nos serviços existentes
+							</span>
+						</div>
+                        <br>
+						<p>
+						> Planejamento e Cronograma: Defino as datas de publicação (deployment), alinha janelas de manutenção e gerencia o calendário de releases.
+						<br>
+						> Coordenação entre Times: Atuo como a ponte entre squads, times de QA, infraestrutura/DevOps e área de negócios.
+						<br>
+						> Gestão de Riscos e Mudanças: Avalio possíveis impactos da nova versão, analiso planos de contingência e garanto que haja um plano de rollback e feature-flag.
+						<br>
+						> Conformidade e Processos: Garanto que todas as etapas de validação, testes, aprovações de segurança e requisitos de governança foram atendidos antes do go-live.
+						<br>
+						> Comunicação: Mantenho os stakeholders e o suporte informados sobre o que mudou na nova versão e quando a atualização vai acontecer.
+						<br>
+						> Distribuição: Nos apps, faço a publicação gradativa em mar aberto, via stores (android/apple) em conjunto com o time de sustentação.
+						<br>
+						> Nos cenários ágeis ou com cultura DevOps madura, eu foco em automatizar esteira de CI/CD (Integração e Entrega Contínuas) e otimizar o fluxo de entregas frequentes e seguras (pipelines).
+						<br>
+						> Release Train (ou Agile Release Train - ART): No framework SAFe (Scaled Agile Framework) eu alinho as squads para realizarem entregas num ritmo fixo e previsível, gerencio o "trem" (agenda e partida), alinho com os times a bordo o planejamento, desenvolvimento e testes simultâneos para garantir a entrega do valor contínuo a um objetivo de negócio comum (equipe multidisciplinar: integração com equipes de desenvolvimento, QA, arquitetura, DevOps e gestão de produto numa única estrutura focada no fluxo contínuo).
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Analista de Requisitos</h3>
+						<div class="flex-shrink-0">
+							<span class="text-primary-custom">
+								com minha visão de negócios/técnica, transformo suas ideias em soluções estruturadas e viáveis
+							</span>
+						</div>
+                        <br>
+						<p>
+						> Executo a extração de requisitos funcionais e técnicos através do entendimento das necessidades, dores e objetivos do negócio (entrevistas, reuniões, workshops e análise de documentos).
+						<br>
+						> Modelagem: Avalio a viabilidade das solicitações, resolvo ambiguidades, elimino conflitos entre áreas e traduzo regras de negócio complexas em especificações claras (como histórias de usuário, diagramas de fluxo, casos de uso ou especificações técnicas).
+						<br>
+						> Documentação e Gestão: Mantenho os artefatos do projeto atualizados e gerencio o escopo para evitar o famoso scope creep (crescimento descontrolado do projeto).
+						<br>
+						> Validação e Homologação: Garanto uma entrega consistente atendendo aquilo que foi solicitado, resolvendo o problema em questão.
+						<br>
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Analista de Processos</h3>
+						<div class="flex-shrink-0">
+							<span class="text-primary-custom">
+								analiso fluxos de trabalho buscando eliminar gargalos e reduzir desperdícios. Uso metodologias Lean e BPMN para otimizar operações e aumentar a eficiência garantindo que os objetivos de negócio sejam atingidos com qualidade
+							</span>
+						</div>
+                        <br>
+						<p>
+						> Mapeamento dos fluxos dos cenários As-Is (isolamento gargalos e identificação de oportunidades) e To-Be (regras e KPIs').
+						<br>
+						> Avaliação de impacto/urgência e análise de métricas.
+						<br>
+						> Definição de alternativas, padronizações/automatizações/rotinas.
+						<br>
+						> Investigação da causa-raiz, post-mortem e RCA.
+						<br>
+						> Aplicação do PDCA (planejar-fazer-checar-agir).
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Analista de Sistemas</h3>
+						<div class="flex-shrink-0">
+							<span class="text-primary-custom">
+								atuo entre as regras de negócio e a equipe de desenvolvimento técnico entendendo necessidades e traduzindo em soluções funcionais e escaláveis focando em como o sistema deve funcionar, quais problemas ele precisa resolver e como diferentes módulos, bancos de dados e APIs vão se integrar
+							</span>
+						</div>
+                        <br>
+						<p>
+						> Levantamento de Requisitos: boa comunicação stakeholders.
+						<br>
+
+						> Modelagem e Arquitetura: Desenhar a estrutura do software, definir fluxos de dados, desenhar diagramas de arquitetura e planejar o modelo de banco de dados (relacional ou não).
+						<br>
+
+						> Especificações Técnica e Funcional: Crio documentação clara (histórias de usuário, diagramas e especificações de API) para que os desenvolvedores saibam exatamente o que construir.
+						<br>
+
+						> Integrações: Defino com os sistemas legados ou novas aplicações vão se comunicar (via APIs REST, mensageria, webhooks, etc.).
+						<br>
+
+						> Gestão de Processos e Qualidade: Acompanho testes, valido o software e garanto que o projeto siga metodologias ágeis (como Scrum ou Kanban) quando aplicável.
+						<br>
+						<br>
+
+						> Perfil e Habilidades (combinação das minhas competências técnicas com as comportamentais):
+						<br>
+
+						>> Visão Sistêmica: Consigo entender um processo ponta a ponta, avaliar impactos de uma mudança em relação ao todo.
+						<br>
+
+						>> Conhecimento Técnico Sólido: Tenho familiaridade com bancos de dados, linguagens de programação, arquitetura de software e padrões de integração.
+						<br>
+
+						>> Comunicação: Sei falar "a linguagem de negócios" com diretores e "a linguagem técnica" com programadores.
+						<br>
+
+						>> Resolução de Problemas: Analiso cenários, realizo diagnosticos de falhas e proponho melhorias contínuas.
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Desenvolvedor</h3>
+						<div class="flex-shrink-0">
+							<span class="text-primary-custom">
+								criação de sistemas em nuvem para indústria/comércio/distribuição
+							</span>
+						</div>
+                        <br>
+						<p>
+						> Levantamento de Requisitos.
+						<br>
+
+						> Modelagem de banco de dados e arquitetura.
+						<br>
+
+						> Desenvolvimento em diversas linguagens de programação.
+						<br>
+
+						> Versionamento, testes e deploy.
+						<br>
+
+						> Gestão de Processos e Qualidade, manutenção, suporte, monitoração de métricas e aplicação de melhoria contínua.
+						<br>
+						</p>
+                    </div>
+                </div>
+
+		        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+        <!-- Seção Formação -->
+		
+        <section class="resume-section" id="education">
+		
+            <div class="resume-section-content">
+
+                <h2 class="mb-5">Formação Acadêmica</h2>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Pós-Graduação - MBA Administração de Bancos de Dados/DBA Oracle</h3>
+                        <div class="subheading mb-3">Faculdade Integrada Metropolitana de Campinas (UniMetrocamp - Grupo ibmec) - 2015
+							<p> <img src=".\img\metrocamp.png" alt="Inteligência Artificial" width="160" height="90"></p>
+						</div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Bacharel em Análise de Sistemas</h3>
+                        <div class="subheading mb-3">Pontifícia Universidade Católica de Campinas - 1988
+							<p> <img src=".\img\pucc.png" alt="Inteligência Artificial" width="160" height="90"></p>
+						</div>
+                    </div>
+                </div>
+
+            </div>
+			
+        </section>
+
+        <hr class="m-0">
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+        <!-- Seção Habilidades -->
+		
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Habilidades</h2>
+				<ul class="list-inline dev-icons fs-1 mb-4">
+					<li class="list-inline-item me-3"><img src=".\img\grafana-original-wordmark.svg" alt="Grafana" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\kibana-original-wordmark.svg" alt="kibana" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\elasticsearch-original-wordmark.svg" alt="ELK" width="150" height="150"></li>
+					<li class="list-inline-item me-3"><img src=".\img\github-original-wordmark.svg" alt="GitHub" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\html5-original-wordmark.svg" alt="HTML5" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\vscode-original.svg" alt="CSS3" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\slack-original-wordmark.svg" alt="Slack" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\jira-original-wordmark.svg" alt="Jira" width="90" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\confluence-line-wordmark.svg" alt="Confluence" width="90" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\cursor.jpg" alt="cursor" width="80" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\gama-ia.jpg" alt="gama-ia" width="60" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\freebuff.jpg" alt="freebuff" width="140" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\oracle-original.svg" alt="Oracle" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\sentry-original-wordmark.svg" alt="Sentry" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\octane.jpg" alt="Octane" width="70" height="70" title="Octane"></li>
+					<li class="list-inline-item me-3"><img src=".\img\solidjs-original-wordmark.svg" alt="Solidity" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\sqlalchemy-original-wordmark.svg" alt="sqlalchemy" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\sqldeveloper-original.svg" alt="sqldeveloper" width="50" height="50" title="SQL Developer"></li>
+					<li class="list-inline-item me-3"><img src=".\img\sqlite-original-wordmark.svg" alt="sqlite" width="80" height="80"></li>
+					<li class="list-inline-item me-3"><img src=".\img\stackoverflow-plain-wordmark.svg" alt="stackoverflow" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\supabase-plain-wordmark.svg" alt="supabase" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\swagger-original-wordmark.svg" alt="swagger" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\typescript-original.svg" alt="typescript" width="40" height="40" title="typescript"></li>
+					<li class="list-inline-item me-3"><img src=".\img\linux-original.svg" alt="linux" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\ubuntu-plain-wordmark.svg" alt="ubuntu" width="100" height="100"></li>
+					<li class="list-inline-item me-3"><img src=".\img\jupyter-original-wordmark.svg" alt="jupyter" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\json-original.svg" alt="json" width="50" height="50" title="json"></li>
+					<li class="list-inline-item me-3"><img src=".\img\javascript-original.svg" alt="javascript" width="40" height="40" title="javascript"></li>
+					<li class="list-inline-item me-3"><img src=".\img\harbor-original.svg" alt="harbor" width="40" height="40" title="harbour"></li>
+					<li class="list-inline-item me-3"><img src=".\img\cassandra-original-wordmark.svg" alt="cassandra" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\azure-original-wordmark.svg" alt="azure" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\android-original-wordmark.svg" alt="android" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\anaconda-original-wordmark.svg" alt="anaconda" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\apache-original-wordmark.svg" alt="apache" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\apple-original.svg" alt="apple" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\arduino-original-wordmark.svg" alt="arduino" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\azuredevops-original.svg" alt="azuredevops" width="50" height="50" title="azuredevops"></li>
+					<li class="list-inline-item me-3"><img src=".\img\bitbucket-original-wordmark.svg" alt="bitbucket" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\bootstrap-original-wordmark.svg" alt="bootstrap" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\browserstack-original-wordmark.svg" alt="browserstack" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\c-original.svg" alt="c" width="40" height="40" title="linguagem C"></li>
+					<li class="list-inline-item me-3"><img src=".\img\chrome-original-wordmark.svg" alt="chrome" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\crystal-original-wordmark.svg" alt="crystal" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\csharp-original.svg" alt="csharp" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\css3-original.svg" alt="css3" width="40" height="40" title="CSS"></li>
+					<li class="list-inline-item me-3"><img src=".\img\datadog-original-wordmark.svg" alt="datadog" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\debian-original-wordmark.svg" alt="debian" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\delphi-original.svg" alt="delphi" width="40" height="40" title="delphi"></li>
+					<li class="list-inline-item me-3"><img src=".\img\django-plain-wordmark.svg" alt="django" width="60" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\dot-net-plain-wordmark.svg" alt="dot-net" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\dotnetcore-original.svg" alt="dotnetcore" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\dreamweaver-original.svg" alt="dreamweaver" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\dynatrace-original-wordmark.svg" alt="dynatrace" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\eclipse-original-wordmark.svg" alt="eclipse" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\fastapi-original-wordmark.svg" alt="fastapi" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\figma-original.svg" alt="figma" width="40" height="40" title="figma"></li>
+					<li class="list-inline-item me-3"><img src=".\img\filezilla-original.svg" alt="filezilla" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\firebase-plain-wordmark.svg" alt="firebase" width="50" height="50" title="firebase"></li>
+					<li class="list-inline-item me-3"><img src=".\img\firebird-plain.svg" alt="firebird" width="40" height="40" title="firebird"></li>
+					<li class="list-inline-item me-3"><img src=".\img\firefox-plain.svg" alt="firefox" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\flask-original-wordmark.svg" alt="flask" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\fortran-original.svg" alt="fortran" width="40" height="40" title="fortran"></li>
+					<li class="list-inline-item me-3"><img src=".\img\git-plain-wordmark.svg" alt="git" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\heroku-original-wordmark.svg" alt="heroku" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\ie10-original.svg" alt="ie10" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\jquery-plain-wordmark.svg" alt="jquery" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\linuxmint-plain-wordmark.svg" alt="linuxmint" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\mariadb-original-wordmark.svg" alt="mariadb" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\microsoftsqlserver-plain-wordmark.svg" alt="microsoftsqlserver" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\mongodb-plain-wordmark.svg" alt="mongodb" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\msdos-original.svg" alt="msdos" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\mysql-original-wordmark.svg" alt="mysql" width="60" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\advpl.png" alt="advpl" width="110" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\dbase.jpg" alt="dbase" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\dbf.png" alt="dbf" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\nextjs-original-wordmark.svg" alt="nextjs" width="60" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\nodejs-original-wordmark.svg" alt="nodejs" width="60" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\opera-original.svg" alt="opera" width="40" height="40" title="opera"></li>
+					<li class="list-inline-item me-3"><img src=".\img\pandas-plain-wordmark.svg" alt="pandas" width="60" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\php-original.svg" alt="php" width="60" height="60"></li>
+					<li class="list-inline-item me-3"><img src=".\img\postgresql-original-wordmark.svg" alt="postgresql" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\postman-plain-wordmark.svg" alt="postman" width="90" height="90"></li>
+					<li class="list-inline-item me-3"><img src=".\img\powershell-original.svg" alt="powershell" width="50" height="50" title="powershell"></li>
+					<li class="list-inline-item me-3"><img src=".\img\putty-original.svg" alt="putty" width="40" height="40" title="putty"></li>
+					<li class="list-inline-item me-3"><img src=".\img\pycharm-original.svg" alt="pycharm" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\python-original-wordmark.svg" alt="python" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\rancher-plain-wordmark.svg" alt="rancher" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\raspberrypi-plain-wordmark.svg" alt="raspberrypi" width="70" height="70"></li>
+					<li class="list-inline-item me-3"><img src=".\img\redhat-plain-wordmark.svg" alt="redhat" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\safari-original-wordmark.svg" alt="safari" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\salesforce-original.svg" alt="salesforce" width="50" height="50"></li>
+					<li class="list-inline-item me-3"><img src=".\img\selenium-original.svg" alt="selenium" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\visualbasic-original.svg" alt="visualbasic" width="40" height="40"></li>
+					<li class="list-inline-item me-3"><img src=".\img\zend-original-wordmark.svg" alt="zend" width="40" height="40" title="Zend Framework"></li>
+				</ul>				
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+        <!-- Seção Interesses -->
+        <section class="resume-section" id="interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Interesses</h2>
+                <p>Sempre que posso, pratico Jiu-Jitsu ou ando de bicicleta.</p>
+                <p class="mb-0">Quando estou em casa, dedico-me à minha família, às minhas orações e geralmente termino o dia assistindo filmes/séries de TV ou explorando as últimas novidades tecnológicas do mundo web.</p>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+        <!-- Seção CERTIFICAÇÕES -->
+
+        <section class="resume-section" id="awards">
+
+            <div class="resume-section-content">
+                <h2 class="mb-5">Certificações</h2>
+
+				<ul class="fa-ul mb-0">
+
+					<p></p>
+					Agilidade
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_po.pdf" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Scrum Product Owner Foundation Certification
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_scrum_m.pdf" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Scrum Master Foundation Certification
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_scrum_e.pdf" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Scrum Essentials Certification
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_lean.pdf" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Lean IT Essentials Certification
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_agile.pdf" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Agile Scrum Fundamentals Certification
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1mNWYOfi7GAjRpQtZvxMqySAO1T8cfgKr/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa de Capacitação DevSecOps - Básico 2
+						</a>
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/introducao-aos-metodos-ageis/formalCertificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Métodos Ágeis: Introdução
+						</a>   
+					</li>
+					
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/kanban-primeiros-passos/certificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Kanban - Fundamentos Essenciais
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/agile-scrum/formalCertificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Scrum: Agilidade em seu projeto
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1gDupYhwEq7Fzt804clfsg9pZ1QuOc3Cj/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Trilha Lean Office | Experience | Parte 2
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1K6i1jX1zks-tH5GXR6GT31b_KJsjODCS/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Trilha DevSecOps - Básico 1
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/12Wpo34sd3gcDbIVy4_JQnmlpJ6lraQ1-/view?usp=drive_link" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Arquitetura Web: Monitoramento e Eficiência na Prática
+						</a>   
+					</li>
+
+					<p></p>
+					Gestão de Projetos
+					
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1UpyRtzaiyU6tCLqIogEHkJ-OSThSK10v/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Gestão de Projetos - Fundamentos
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/19EGTp7gH3lRwrZSHaNZf845nNdhUfgQ-/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Gestão de Projetos - Métricas e indicadores na prática
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1UMOIFSbE5beZui47hjBUx_9mD34ihN_n/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Dashboard Executivo - KPIs TI
+						</a>
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/14zjhniCHNLHsKuFLbqYVSqFBNDn7J76k/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Capacitação de GPs - Gestão de Comunicação
+						</a>
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1Re-9sl7RCJpm4Kp5agJhQk5jhh8lAuFz/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa de Gestão de Projetos - Envolvimento de Segurança PPs - 05
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1HP0azdEP8JaGnnmPQX1UAZR2D7HqE9ry/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							BaseCamp: Gestão de Recursos e Capacidade - Programa de Maturidade em GP
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1UHUYSHgqPLZg53VOSEp3JLblJKJ8OAEn/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							BaseCamp: Gestão de Release - Programa de Maturidade em GP - BaseCamp
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1Tb2NbkLmRvRIxb6-tnAdZTvIfaS1mzO4/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa de Maturidade em GP: BaseCamp - Requisitos SOX
+						</a>
+					</li>
+
+					<p></p>
+					Arquitetura e Engenharia
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1FSn88ls0BI8l23Z9nPxNoUY34kugQwQG/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa de Formação do Arquiteto: Módulo Essencial
+						</a>
+					</li>
+					
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1FSn88ls0BI8l23Z9nPxNoUY34kugQwQG/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa de Formação do Arquiteto: NIST - Fundamentos
+						</a>
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1xItZfhoAkh7W59IKpt4AiQaPD9V-1F6M/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Trilha Arquiteto Corporativo
+						</a>
+					</li>
+					
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1duuITjzqy1mv1FtBP9iLxoGxelh8u67q/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa de Capacidade de Engenheiro de Software Desenho & Arquitetura de Software
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/19Im8R6fwaoTJYOAjxMX8w8sPVdOWlFID/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Desenho & Arquitetura de Software - Fundamentos
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1b86Vaju1jBx8Yzw4nExd1j9jWMS86yH2/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							APIS e Microsserviços REST
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1KjuLdp_kHqP0EtoLISzc6pTqPNcQplH5/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							API - Fundamentos
+						</a>
+					</li>
+					
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1O2A1LcDBcom_dzRFdlIUWnxw4AIw64ue/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Trilha Platform Code (Módulo Básico)
+						</a>   
+					</li>
+					
+					<p></p>
+					Inteligência Artificial
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1HPtvWjwS-a8-jPgXdFtMX9IojPJ9GNjp/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Domine o Copilot: A Arte da Engenharia de Prompt
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1MtmGtmiqO8OoU-s32IJlLYsHSDTLBubs/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Github Copilot Show
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1qAauoZf7mD_MJjkiZRc1QAGD0l6oLExo/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Inteligência Artificial: Hércules - Onboarding digital
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1ix_KTWK8nLvoWfd5Brl0yV_OqknFnuyD/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Inteligência Artificial: Hércules - Jornada QA
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/11-iVQk-A_0DZSRTE5JtGEH0zBk-ainWi/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Inteligência Artificial: Hércules - Jornada AF
+						</a>
+					</li>
+					
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1jJuofbds8gOJr2EaI90dvuoOV0DCP3-K/view?usp=sharing" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Imersão IA
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1BSLv1_sOoY8bJGmr_KaEELXvkIVsYW6b/view?usp=sharing" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Jornada Inteligência Artificial
+						</a>   
+					</li>
+
+
+					<p></p>
+					GRC - Governança, Riscos e Compliance
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1tsDwAEEq2alarFdadwjfrqg7QpVo51h2/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							SOX e Gestão de Acessos
+						</a>
+					</li>
+
+					<p></p>
+					SRE
+					
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1RzU7I8sFt09o-IrQklUcbPUxhf2K5NeT/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Programa SRE (Site Reliability Engineering) Fundamentos
+						</a>
+					</li>
+
+				
+					<p></p>
+					Análise de Dados
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1vJZBWqudAx21u879_UJLebkS_myNHU-Q/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Python: automações - análise de dados - ia - sistemas
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/10jtbBUkv6J4xaEVr6Cilrzs3I4_PggEd/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Análise de Dados - Intensivo
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1-g2bab8uAb7MM5xf4cJnUxmTIqSg4K0F/view?usp=sharing" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Power BI - Intensivo
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1uBJC6tj-CKZI9EHAQCixkcSOjkiVeHb9/view?usp=sharing" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Excel e Power BI com IA
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/excel/certificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Excel Avançado
+						</a>   
+					</li>
+
+
+
+
+					<p></p>
+					Cloud
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_cloud.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Cloud Security Foundation Certification
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_is.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							InfoSec Foundation Certification
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1QPoucQ92EIJQPM1AKUomMT4ap2bvT_tm/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							IA e CloudComputing
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_vul.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Vulnerability Management Foundation Certification 
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_isp.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Information Security Policy Foundation Certification
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_dg.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Data Governance Foundation Certification
+						</a>   
+					</li>
+					
+
+
+					<p></p>
+					Banco de Dados
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/mongodb/formalCertificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							MongoDB - Uma alternativa aos bancos relacionais tradicionais
+						</a>   
+					</li>
+				
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/blockchain-confianca-da-sua-aplicacao/certificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Blockchain 
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_ds.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Data Science Essentials Certification
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://insofismavel.com.br/certificados/itc_big.jpg" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Big Data Foundation Certification
+						</a>   
+					</li>
+					
+					<p></p>
+					DEV
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1S11Cy1ciC1eXr0tkCVTzJx4ILfvLSaVO/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Desenvolvimento End2End - Ecossistema Tech.IA
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1zjb3Pk0NoeSZYHP8ecJx_pePIKLpMzCy/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Desenvolvimento Seguro
+						</a>
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1Qqs5j9stuzSy-VCKNhMnHVBQvS17DKnx/view?usp=sharing" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Python 3 - parte 1: Introdução à nova versão da linguagem
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/python-3-avancando-na-linguagem/formalCertificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Python 3 - parte 2: Avançando na linguagem
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/python-3-intro-orientacao-objetos/certificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Python 3 - Introdução a Orientação a Objetos
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/linux-ubuntu/formalCertificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Linux I: Conhecendo e utilizando o terminal
+						</a>   
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://cursos.alura.com.br/user/brhavos/course/linux-ubuntu-processos/formalCertificate" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Linux II: Programas, processos e pacotes
+						</a>   
+					</li>
+
+					<p></p>
+					Diversos
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1K11YEWXVbTcp4kq_EUWoOAeXlz_b669N/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Alfabetização Tecnológica-III: Introducao IOT e BigData
+						</a>   
+					</li>
+
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1W8C0Sm6G8wGuJh8qeDqN8lIYvKZgYp7h/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Treinamento Lei Anticorrupção Brasileira - 3129118 - (12.846_13)
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1OCsUH373acqmIh5n5ugDSgUTK9BUDs4x/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Sindrome do Impostor
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1rDzOMAiBUaY6KSqVjaHf58JAGMJAEgk1/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Empatia e escuta ativa TPF
+						</a>
+					</li>
+					<li>
+						<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+						<a href="https://drive.google.com/file/d/1sqwRTPtNZCCNAvOBBnM2fENWACMOKYZo/view" onclick="abrirJanelaMenor(event, this.href)" class="text-decoration-none text-dark">
+							Onboarding de Compliance
+						</a>
+					</li>
+
+
+				</ul>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+	<script>
+        // Rolagem suave para os links de navegação
+        document.querySelectorAll('a.js-scroll-trigger').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                    // Recolhe a barra de navegação no mobile após o clique
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        new bootstrap.Collapse(navbarCollapse).hide();
+                    }
+                }
+            });
+        });
+
+    </script>
+
+	<script>
+		// Função para abrir documentos no modo janela, semelhante a um poppup sem sair da página.
+		function abrirJanelaMenor(event, url) {
+			// Impede o comportamento padrão de abrir em aba inteira
+			event.preventDefault();
+			
+			// Defina o tamanho da janela menor (ex: 900 pixels de largura por 750 de altura)
+			const largura = 900;
+			const altura = 650;
+			
+			// Calcula a posição para centralizar na tela
+			const esquerda = (screen.width - largura) / 2;
+			const topo = (screen.height - altura) / 2;
+			
+			// Opções da janela (com barras de rolagem e redimensionável, mas sem ocupar a tela toda)
+			const configuracoes = `width=${largura},height=${altura},top=${topo},left=${esquerda},scrollbars=yes,resizable=yes,status=no,toolbar=no,menubar=no,location=no`;
+			
+			// Abre a janela menor
+			window.open(url, 'VisualizarArquivo', configuracoes);
+		}
+	</script>
+
+
+
+</body>
+
+</html>
